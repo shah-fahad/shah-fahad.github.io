@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from vladchepel.github.io/cannaly/dist/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Jan 2019 14:13:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header page__header">
+    <div class="header__container container">
+      <div class="header__left">
+        <button class="header__menu-toggle">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+        <a class="header__brand" href="index-2.html">Finch and Sons</a>
+      </div>
+      <div class="header__right">
+        <form class="search header__search">
+          <div class="search__icon">
+            <svg class="icon icon--search"><use xlink:href="sprites/sprite.svg#search"></use></svg>
+          </div>
+          <div class="typeahead">
+            <div class="typeahead__container">
+              <div class="typeahead__field">
+                <input class="typeahead__input search__input js-typeahead-search" placeholder="Search" type="text" />
+              </div>
+            </div>
+          </div>
+          <button class="search__close-btn" type="button">
+            <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+          </button>
+        </form>
+        <nav class="nav header__nav">
+          <a class="nav__link nav__link--home" href="index-2.html">Home
+            <svg class="icon icon--home"><use xlink:href="sprites/sprite.svg#home"></use></svg>
+          </a>
+          <a class="nav__link" href="messages.html">
+            <span class="nav__icon-wrap">
+              <svg class="icon icon--messages"><use xlink:href="sprites/sprite.svg#messages"></use></svg>
+              <span class="badge">2</span>
+            </span>
+          </a>
+          <div class="nav__item nav__item--user dropdown">
+            <a class="nav__link dropdown__toggle" href="#">
+              <span class="nav__icon-wrap">
+                <svg class="icon icon--user"><use xlink:href="sprites/sprite.svg#user"></use></svg>
+              </span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">customer@email.com</a>
+              </li>
+              <li class="dropdown__devider"></li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">My Account</a>
+              </li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__item dropdown">
+            <a class="nav__link nav__link--cart dropdown__toggle" href="#">
+              <span class="nav__icon-wrap">
+                <svg class="icon icon--cart"><use xlink:href="sprites/sprite.svg#cart"></use></svg>
+                <span class="badge">2</span>
+              </span>
+              <span class="caret"></span>
+            </a>
+            <div class="cart-dropdown dropdown__menu">
+              <div class="dropdown__header dropdown__header--sm">
+                <button class="dropdown__close" type="button">
+                  <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                </button>
+                <h2 class="dropdown__heading">Added To Cart</h2>
+              </div>
+              <table class="cart-dropdown__table">
+                <tr class="cart-dropdown__table-row">
+                  <td class="cart-dropdown__table-cell">
+                    <img src="images/products/product-thumb-4.jpg" />
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <a class="cart-dropdown__product-name" href="#">Hum Farms Premium Flower and if longer t...</a>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <div class="cart-dropdown__price-block">
+                      <span class="cart-dropdown__number">1 x</span>
+                      <span class="cart-dropdown__price">$17</span>
+                    </div>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <button class="icon icon--remove" type="button">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </td>
+                </tr>
+                <tr class="cart-dropdown__table-row">
+                  <td class="cart-dropdown__table-cell">
+                    <img src="images/products/product-thumb-5.jpg" />
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <a class="cart-dropdown__product-name" href="#">Energize .3g Disposable Vape</a>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <div class="cart-dropdown__price-block">
+                      <span class="cart-dropdown__number">1 x</span>
+                      <span class="cart-dropdown__price">$1700</span>
+                    </div>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <button class="icon icon--remove" type="button">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <div class="cart-dropdown__promo">
+                <img class="cart-dropdown__img" src="images/products/product-thumb-3.jpg" alt="" role="presentation" />
+                <a class="cart-dropdown__product-name" href="#">Central Coast Sativa</a>
+                <div class="cart-dropdown__label label">Promotional Offer</div>
+              </div>
+              <div class="cart-dropdown__buttons">
+                <a class="button button--outline button--full" href="cart.html">view cart (1)</a>
+                <a class="button button--full" href="checkout.html">to checkout</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="vendor page__main page__main--checkout">
+    <div class="side-menu">
+      <div class="side-menu__close">
+        <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+      </div>
+      <ul class="tabs">
+        <li class="tabs__item">
+          <a class="tabs__link" href="index-2.html#products">Products</a>
+        </li>
+        <li class="tabs__item">
+          <a class="tabs__link" href="index-2.html#orders">Orders</a>
+        </li>
+        <li class="tabs__item">
+          <a class="tabs__link" href="index-2.html#about">About</a>
+        </li>
+      </ul>
+      <div class="license">
+        <div class="license__number">
+          <span class="license__icon">
+            <svg class="icon icon--21-plus"><use xlink:href="sprites/sprite.svg#21-plus"></use></svg>
+          </span>M11-18-0000187-TEMP</div>
+        <a class="license__download" href="#">
+          <span class="license__icon">
+            <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+          </span>Download Licenses</a>
+      </div>
+      <div class="license">
+        <div class="license__number">
+          <span class="license__icon">
+            <svg class="icon icon--plus-circle"><use xlink:href="sprites/sprite.svg#plus-circle"></use></svg>
+          </span>M11-18-0000187-TEMP</div>
+        <a class="license__download" href="#">
+          <span class="license__icon">
+            <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+          </span>Download Licenses</a>
+      </div>
+      <ul class="side-menu__nav">
+        <li class="side-menu__nav-item">
+          <a class="side-menu__nav-link" href="#">My Account</a>
+        </li>
+        <li class="side-menu__nav-item">
+          <a class="side-menu__nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+    <div class="vendor__container container">
+      <div class="vendor__bg hidden-sm" style="background-image: url('images/cannabis-company-bg.jpg')"></div>
+      <div class="row">
+        <div class="vendor__side col-xl-3 col-lg-4 col-md-5">
+          <div class="tile vendor__tile">
+            <div class="tile__img">
+              <img src="images/cannabis-company-logo.png" alt="Cannabis Company" />
+            </div>
+            <a class="tile__site-link" href="http://finchandsons.com/" target="blank">finchandsons.com</a>
+            <div class="license">
+              <div class="license__number">
+                <span class="license__icon">
+                  <svg class="icon icon--21-plus"><use xlink:href="sprites/sprite.svg#21-plus"></use></svg>
+                </span>M11-18-0000187-TEMP</div>
+              <a class="license__download" href="#">
+                <span class="license__icon">
+                  <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                </span>Download Licenses</a>
+            </div>
+            <div class="license">
+              <div class="license__number">
+                <span class="license__icon">
+                  <svg class="icon icon--plus-circle"><use xlink:href="sprites/sprite.svg#plus-circle"></use></svg>
+                </span>M11-18-0000187-TEMP</div>
+              <a class="license__download" href="#">
+                <span class="license__icon">
+                  <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                </span>Download Licenses</a>
+            </div>
+          </div>
+          <div class="tile vendor__tile">
+            <div class="place-order">
+              <button class="button">place your order</button>
+              <div class="place-order__footer">By placing your order, you agree to Cannaly’s
+                <a href="#">privacy notice</a> and
+                <a href="#">conditions of use.</a>
+              </div>
+            </div>
+            <h2>Order Summary</h2>
+            <div class="total">
+              <div class="total__row total__row--bold">
+                <div class="total__row-title">Subtotal (3 items):</div>
+                <div class="total__row-value">$659.24</div>
+              </div>
+              <div class="total__row">
+                <div class="total__row-title">Shipping & handling:</div>
+                <div class="total__row-value">$0</div>
+              </div>
+              <div class="total__row">
+                <div class="total__row-title">Total before tax:</div>
+                <div class="total__row-value">$659.24</div>
+              </div>
+              <div class="total__row">
+                <div class="total__row-title">Excise Tax:
+                  <span class="tooltip">
+                    <svg class="icon icon--tooltip"><use xlink:href="sprites/sprite.svg#tooltip"></use></svg>
+                    <span class="tooltip__text">Lorem ipsum dolor sit amet.</span>
+                  </span>
+                </div>
+                <div class="total__row-value">$292.20</div>
+              </div>
+              <div class="total__row total__row--total">
+                <div class="total__row-title">Total:</div>
+                <div class="total__row-value">$942.44</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-8 col-md-7">
+          <div class="vendor__main">
+            <div class="vendor__share-block">
+              <ul class="socials vendor__socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--facebook"><use xlink:href="sprites/sprite.svg#facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--instagram"><use xlink:href="sprites/sprite.svg#instagram"></use></svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--twitter"><use xlink:href="sprites/sprite.svg#twitter"></use></svg>
+                  </a>
+                </li>
+              </ul>
+              <a class="vendor__share" href="#">Share
+                <svg class="icon icon--share"><use xlink:href="sprites/sprite.svg#share"></use></svg>
+              </a>
+            </div>
+            <h2 class="page__title page__title--header">Checkout</h2>
+            <div class="checkout">
+              <div class="notification checkout__notification-sm">
+                <div class="notification__content">
+                  <svg class="icon icon--attention"><use xlink:href="sprites/sprite.svg#attention"></use></svg>
+                  <div class="notification__content-right">Min. order amount for this vendor is $2,000.00
+                    <a href="#">+ add more products</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <div class="checkout__step checkout__step--first">
+                    <div class="checkout__step-heading">
+                      <span>1.</span> Shipping address</div>
+                    <div class="checkout__user-name">Jeff Wickum 2201</div>
+                    <div class="checkout__user-address">Jeff Bridgepointe Pkwy, B107</div>
+                    <div class="checkout__user-city">CA 94043 Change</div>
+                    <a href="#">Change</a>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <div class="checkout__step">
+                    <div class="checkout__step-heading">
+                      <span>2.</span> Choose delivery option</div>
+                    <div class="radio">
+                      <label class="radio__wrap">
+                        <input class="radio__input" type="radio" />
+                        <span class="radio__box"></span>
+                        <span class="radio__text">
+                          <strong>Delivery:</strong>
+                          $0.00</span>
+                      </label>
+                      <div class="radio__meta">
+                        <div class="radio__meta-heading">Next delivery to your region:</div>
+                        <div class="radio__meta-value">August 31 - September 4</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="checkout__step">
+                <div class="checkout__step-heading">
+                  <span>3.</span> Review items and shipping</div>
+                <div class="notification checkout__notification">Min order amount for this vendor is: $500.00</div>
+              </div>
+              <div class="table-wrap">
+                <table class="table table--cart">
+                  <tr class="table__row">
+                    <th class="table__col-title">Item</th>
+                    <th class="table__col-title">Price</th>
+                    <th class="table__col-title">Quantity</th>
+                    <th class="table__col-title"></th>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <div class="table__item">
+                        <div class="table__item-img">
+                          <img src="images/products/product-thumb-4.jpg">
+                        </div>
+                        <div class="table__item-title">
+                          <a href="#">Hum Farms Premium Flower</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table__cell">
+                      <span class="table__old-price">$1200.00</span>
+                      <span class="table__new-price">$17</span>
+                    </td>
+                    <td class="table__cell">
+                      <div class="counter">
+                        <input class="counter__field" type="text" value="1" />
+                        <div class="counter__buttons">
+                          <button class="counter__button counter__button--plus">
+                            <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                          </button>
+                          <button class="counter__button counter__button--minus">
+                            <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                          </button>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table__cell">
+                      <button class="icon icon--remove" type="button">
+                        <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <div class="table__item">
+                        <div class="table__item-img">
+                          <img src="images/products/product-thumb-5.jpg">
+                        </div>
+                        <div class="table__item-title">
+                          <a href="#">Energize .3g Disposable Vape</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table__cell">$17</td>
+                    <td class="table__cell">
+                      <div class="counter">
+                        <input class="counter__field" type="text" value="1" />
+                        <div class="counter__buttons">
+                          <button class="counter__button counter__button--plus">
+                            <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                          </button>
+                          <button class="counter__button counter__button--minus">
+                            <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                          </button>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table__cell">
+                      <button class="icon icon--remove" type="button">
+                        <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <div class="table__item">
+                        <div class="table__item-img">
+                          <img src="images/products/product-thumb-3.jpg">
+                        </div>
+                        <div class="table__item-title">
+                          <a href="#">Hum Farms Premium Flower</a>
+                          <div class="label">Promotional Offer</div>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="vendor__sub-total">
+                <div class="vendor__sub-total-heading">Subtotal (2 items):</div>
+                <div class="vendor__sub-total-value">$659.24</div>
+              </div>
+              <div class="checkout__step checkout__step--sm">
+                <div class="checkout__step-heading">
+                  <span>2.</span> Choose delivery option</div>
+                <div class="radio">
+                  <label class="radio__wrap">
+                    <input class="radio__input" type="radio" name="delivery" />
+                    <span class="radio__box"></span>
+                    <span class="radio__text">
+                      <strong>Delivery:</strong>
+                      $0.00</span>
+                  </label>
+                  <div class="radio__meta">
+                    <div class="radio__meta-heading">Next delivery to your region:</div>
+                    <div class="radio__meta-value">August 31 - September 4</div>
+                  </div>
+                </div>
+                <div class="radio">
+                  <label class="radio__wrap">
+                    <input class="radio__input" type="radio" name="delivery" />
+                    <span class="radio__box"></span>
+                    <span class="radio__text">
+                      <strong>Delivery:</strong>
+                      $0.00</span>
+                  </label>
+                  <div class="radio__meta">
+                    <div class="radio__meta-heading">Next delivery to your region:</div>
+                    <div class="radio__meta-value">August 31 - September 4</div>
+                  </div>
+                </div>
+              </div>
+              <div class="checkout__bottom">
+                <div class="checkout__bottom-left">
+                  <div class="form-group">
+                    <label class="form-group__label" for="promocode">Enter Promo code:</label>
+                    <div class="promocode">
+                      <input class="input" placeholder="Promo code" id="promocode" type="text" />
+                      <button class="button button--dark">apply</button>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-group__label" for="note">Add note to this order:</label>
+                    <textarea class="textarea" id="note" rows="4" placeholder="Your note"></textarea>
+                  </div>
+                </div>
+                <div class="checkout__bottom-right">
+                  <div class="total">
+                    <a class="button total__button-sm" href="checkout.html">Place your order</a>
+                    <h2>Order Summary</h2>
+                    <div class="total__row total__row--bold">
+                      <div class="total__row-title">Subtotal (3 items):</div>
+                      <div class="total__row-value">$659.24</div>
+                    </div>
+                    <div class="total__row">
+                      <div class="total__row-title">Shipping & handling:</div>
+                      <div class="total__row-value">$0</div>
+                    </div>
+                    <div class="total__row">
+                      <div class="total__row-title">Total before tax:</div>
+                      <div class="total__row-value">$659.24</div>
+                    </div>
+                    <div class="total__row">
+                      <div class="total__row-title">Excise Tax:
+                        <span class="tooltip">
+                          <svg class="icon icon--tooltip"><use xlink:href="sprites/sprite.svg#tooltip"></use></svg>
+                          <span class="tooltip__text">Lorem ipsum dolor sit amet.</span>
+                        </span>
+                      </div>
+                      <div class="total__row-value">$292.20</div>
+                    </div>
+                    <div class="total__row total__row--total">
+                      <div class="total__row-title">Total:</div>
+                      <div class="total__row-value">$942.44</div>
+                    </div>
+                    <a class="button" href="checkout.html">Place your order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vendor__fixed-bottom">
+              <a class="button" href="checkout.html">place your order</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer page__footer">Powered by
+    <a class="footer__logo" href="#">
+      <img src="images/logo.svg" />
+    </a>
+  </footer>
+  <script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+
+<!-- Mirrored from vladchepel.github.io/cannaly/dist/checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Jan 2019 14:13:36 GMT -->
+</html>

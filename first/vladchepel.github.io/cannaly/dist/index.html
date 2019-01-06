@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from vladchepel.github.io/cannaly/dist/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Jan 2019 14:13:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header page__header">
+    <div class="header__container container">
+      <div class="header__left">
+        <button class="header__menu-toggle">
+          <div></div>
+          <div></div>
+          <div></div>
+        </button>
+        <a class="header__brand" href="index-2.html">Finch and Sons</a>
+      </div>
+      <div class="header__right">
+        <form class="search header__search">
+          <div class="search__icon">
+            <svg class="icon icon--search"><use xlink:href="sprites/sprite.svg#search"></use></svg>
+          </div>
+          <div class="typeahead">
+            <div class="typeahead__container">
+              <div class="typeahead__field">
+                <input class="typeahead__input search__input js-typeahead-search" placeholder="Search" type="text" />
+              </div>
+            </div>
+          </div>
+          <button class="search__close-btn" type="button">
+            <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+          </button>
+        </form>
+        <nav class="nav header__nav">
+          <a class="nav__link nav__link--home" href="index-2.html">Home
+            <svg class="icon icon--home"><use xlink:href="sprites/sprite.svg#home"></use></svg>
+          </a>
+          <a class="nav__link" href="messages.html">
+            <span class="nav__icon-wrap">
+              <svg class="icon icon--messages"><use xlink:href="sprites/sprite.svg#messages"></use></svg>
+              <span class="badge">2</span>
+            </span>
+          </a>
+          <div class="nav__item nav__item--user dropdown">
+            <a class="nav__link dropdown__toggle" href="#">
+              <span class="nav__icon-wrap">
+                <svg class="icon icon--user"><use xlink:href="sprites/sprite.svg#user"></use></svg>
+              </span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">customer@email.com</a>
+              </li>
+              <li class="dropdown__devider"></li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">My Account</a>
+              </li>
+              <li class="dropdown__item">
+                <a class="dropdown__link" href="#">Sign Out</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav__item dropdown">
+            <a class="nav__link nav__link--cart dropdown__toggle" href="#">
+              <span class="nav__icon-wrap">
+                <svg class="icon icon--cart"><use xlink:href="sprites/sprite.svg#cart"></use></svg>
+                <span class="badge">2</span>
+              </span>
+              <span class="caret"></span>
+            </a>
+            <div class="cart-dropdown dropdown__menu">
+              <div class="dropdown__header dropdown__header--sm">
+                <button class="dropdown__close" type="button">
+                  <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                </button>
+                <h2 class="dropdown__heading">Added To Cart</h2>
+              </div>
+              <table class="cart-dropdown__table">
+                <tr class="cart-dropdown__table-row">
+                  <td class="cart-dropdown__table-cell">
+                    <img src="images/products/product-thumb-4.jpg" />
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <a class="cart-dropdown__product-name" href="#">Hum Farms Premium Flower and if longer t...</a>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <div class="cart-dropdown__price-block">
+                      <span class="cart-dropdown__number">1 x</span>
+                      <span class="cart-dropdown__price">$17</span>
+                    </div>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <button class="icon icon--remove" type="button">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </td>
+                </tr>
+                <tr class="cart-dropdown__table-row">
+                  <td class="cart-dropdown__table-cell">
+                    <img src="images/products/product-thumb-5.jpg" />
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <a class="cart-dropdown__product-name" href="#">Energize .3g Disposable Vape</a>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <div class="cart-dropdown__price-block">
+                      <span class="cart-dropdown__number">1 x</span>
+                      <span class="cart-dropdown__price">$1700</span>
+                    </div>
+                  </td>
+                  <td class="cart-dropdown__table-cell">
+                    <button class="icon icon--remove" type="button">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <div class="cart-dropdown__promo">
+                <img class="cart-dropdown__img" src="images/products/product-thumb-3.jpg" alt="" role="presentation" />
+                <a class="cart-dropdown__product-name" href="#">Central Coast Sativa</a>
+                <div class="cart-dropdown__label label">Promotional Offer</div>
+              </div>
+              <div class="cart-dropdown__buttons">
+                <a class="button button--outline button--full" href="cart.html">view cart (1)</a>
+                <a class="button button--full" href="checkout.html">to checkout</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="vendor page__main">
+    <div class="side-menu">
+      <div class="side-menu__close">
+        <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+      </div>
+      <ul class="tabs">
+        <li class="tabs__item">
+          <a class="tabs__link" href="#products">Products</a>
+        </li>
+        <li class="tabs__item">
+          <a class="tabs__link" href="#orders">Orders</a>
+        </li>
+        <li class="tabs__item">
+          <a class="tabs__link" href="#about">About</a>
+        </li>
+      </ul>
+      <div class="license">
+        <div class="license__number">
+          <span class="license__icon">
+            <svg class="icon icon--21-plus"><use xlink:href="sprites/sprite.svg#21-plus"></use></svg>
+          </span>M11-18-0000187-TEMP</div>
+        <a class="license__download" href="#">
+          <span class="license__icon">
+            <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+          </span>Download Licenses</a>
+      </div>
+      <div class="license">
+        <div class="license__number">
+          <span class="license__icon">
+            <svg class="icon icon--plus-circle"><use xlink:href="sprites/sprite.svg#plus-circle"></use></svg>
+          </span>M11-18-0000187-TEMP</div>
+        <a class="license__download" href="#">
+          <span class="license__icon">
+            <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+          </span>Download Licenses</a>
+      </div>
+      <ul class="side-menu__nav">
+        <li class="side-menu__nav-item">
+          <a class="side-menu__nav-link" href="#">My Account</a>
+        </li>
+        <li class="side-menu__nav-item">
+          <a class="side-menu__nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+    </div>
+    <div class="vendor__container container">
+      <div class="vendor__bg hidden-sm" style="background-image: url('images/cannabis-company-bg.jpg')"></div>
+      <div class="vendor__bg tab-meta tab-meta--sm tab-meta--active" style="background-image: url('images/cannabis-company-bg.jpg')" data-tab="products"></div>
+      <div class="vendor__side-sm tab-meta tab-meta--sm tab-meta--active" data-tab="products">
+        <div class="tile vendor__tile">
+          <div class="tile__img">
+            <img src="images/cannabis-company-logo.png" alt="Cannabis Company">
+          </div>
+          <a class="tile__site-link" href="finchandsons.html">finchandsons.com</a>
+          <div class="tile__share-block">
+            <ul class="socials tile__socials">
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg class="icon icon--facebook"><use xlink:href="sprites/sprite.svg#facebook"></use></svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg class="icon icon--instagram"><use xlink:href="sprites/sprite.svg#instagram"></use></svg>
+                </a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#">
+                  <svg class="icon icon--twitter"><use xlink:href="sprites/sprite.svg#twitter"></use></svg>
+                </a>
+              </li>
+            </ul>
+            <a class="tile__share" href="#">
+              <svg class="icon icon--share"><use xlink:href="sprites/sprite.svg#share"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="vendor__side col-xl-3 col-lg-4 col-md-5">
+          <div class="tile vendor__tile">
+            <div class="tile__img">
+              <img src="images/cannabis-company-logo.png" alt="Cannabis Company" />
+            </div>
+            <a class="tile__site-link" href="http://finchandsons.com/" target="blank">finchandsons.com</a>
+            <div class="license">
+              <div class="license__number">
+                <span class="license__icon">
+                  <svg class="icon icon--21-plus"><use xlink:href="sprites/sprite.svg#21-plus"></use></svg>
+                </span>M11-18-0000187-TEMP</div>
+              <a class="license__download" href="#">
+                <span class="license__icon">
+                  <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                </span>Download Licenses</a>
+            </div>
+            <div class="license">
+              <div class="license__number">
+                <span class="license__icon">
+                  <svg class="icon icon--plus-circle"><use xlink:href="sprites/sprite.svg#plus-circle"></use></svg>
+                </span>M11-18-0000187-TEMP</div>
+              <a class="license__download" href="#">
+                <span class="license__icon">
+                  <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                </span>Download Licenses</a>
+            </div>
+          </div>
+          <div class="tile vendor__tile">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget efficitur mi. Fusce in metus et lacus maximus finibus ut sagittis diam. Nulla quis metus sapien. Nam aliquet faucibus felis.</p>
+            <a href="#">Read more...</a>
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-8 col-md-7">
+          <div class="vendor__main">
+            <div class="vendor__share-block">
+              <ul class="socials vendor__socials">
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--facebook"><use xlink:href="sprites/sprite.svg#facebook"></use></svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--instagram"><use xlink:href="sprites/sprite.svg#instagram"></use></svg>
+                  </a>
+                </li>
+                <li class="socials__item">
+                  <a class="socials__link" href="#">
+                    <svg class="icon icon--twitter"><use xlink:href="sprites/sprite.svg#twitter"></use></svg>
+                  </a>
+                </li>
+              </ul>
+              <a class="vendor__share" href="#">Share
+                <svg class="icon icon--share"><use xlink:href="sprites/sprite.svg#share"></use></svg>
+              </a>
+            </div>
+            <div class="vendor__tabs">
+              <ul class="tabs">
+                <li class="tabs__item tabs__item--active">
+                  <a class="tabs__link" href="#products">Products</a>
+                </li>
+                <li class="tabs__item">
+                  <a class="tabs__link" href="#orders">Orders</a>
+                </li>
+              </ul>
+              <div class="tab-meta" data-tab="orders">
+                <div class="select">
+                  <select class="select__select">
+                    <option>All Order</option>
+                    <option>Completed</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content tab-content--active" id="products">
+              <h2 class="page__title page__title--sm">Products</h2>
+              <div class="filter dropdown vendor__filter">
+                <div class="filter__tags">
+                  <div class="filter__tag">
+                    <div class="filter__tag-value">Sativa</div>
+                    <button class="filter__tag-remove">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__tag">
+                    <div class="filter__tag-value">Indica</div>
+                    <button class="filter__tag-remove">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__tag">
+                    <div class="filter__tag-value">THC: 5%</div>
+                    <button class="filter__tag-remove">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__tag">
+                    <div class="filter__tag-value">CBD: 12%</div>
+                    <button class="filter__tag-remove">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </div>
+                  <div class="filter__tag">
+                    <div class="filter__tag-value">Price: $5-$60</div>
+                    <button class="filter__tag-remove">
+                      <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                    </button>
+                  </div>
+                </div>
+                <button class="filter__toggle dropdown__toggle">
+                  <svg class="icon icon--filter"><use xlink:href="sprites/sprite.svg#filter"></use></svg>Show Filter</button>
+                <form class="filter__dropdown dropdown__menu">
+                  <div class="filter__dropdown-wrap">
+                    <div class="filter__dropdown-main">
+                      <div class="dropdown__header dropdown__header--sm">
+                        <button class="dropdown__close">
+                          <svg class="icon icon--close"><use xlink:href="sprites/sprite.svg#close"></use></svg>
+                        </button>
+                        <h2 class="dropdown__heading">Filter by:</h2>
+                        <button class="button button--outline filter__reset" type="button">reset</button>
+                      </div>
+                      <div class="filter__dropdown-left">
+                        <div class="form-group filter__categories">
+                          <label class="form-group__label" for="categories">Categories</label>
+                          <div class="typeahead">
+                            <div class="typeahead__container">
+                              <div class="typeahead__field">
+                                <input class="typeahead__input js-typeahead-categories" placeholder="Select a category" type="text" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group__icon-toggle">
+                            <svg class="icon icon--angle-right"><use xlink:href="sprites/sprite.svg#angle-right"></use></svg>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-group__label">Strain Typeе</label>
+                          <div class="checkbox-group">
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Indica</span>
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Sativa</span>
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Hybrid</span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-group__label">Mg of THC</label>
+                          <div class="slider" data-start="30" data-end="70" data-min="0" data-max="200">
+                            <div class="slider__labels">
+                              <div class="slider__label slider__label--min"></div>
+                              <div class="slider__label slider__label--max"></div>
+                            </div>
+                            <div class="slider__fields">
+                              <input class="slider__field slider__field--lower" type="text" />
+                              <input class="slider__field slider__field--higher" type="text" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="filter__dropdown-right">
+                        <div class="form-group">
+                          <label class="form-group__label">Mg of CBD</label>
+                          <div class="slider" data-start="0" data-end="3" data-min="0" data-max="7">
+                            <div class="slider__labels">
+                              <div class="slider__label slider__label--min"></div>
+                              <div class="slider__label slider__label--max"></div>
+                            </div>
+                            <div class="slider__fields">
+                              <input class="slider__field slider__field--lower" type="text" />
+                              <input class="slider__field slider__field--higher" type="text" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="form-group__label">Dietary</label>
+                          <div class="checkbox-group checkbox-group--50">
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Gluten</span>
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Vegan</span>
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Sugar Free</span>
+                              </label>
+                            </div>
+                            <div class="checkbox">
+                              <label class="checkbox__wrap">
+                                <input class="checkbox__input" type="checkbox" />
+                                <span class="checkbox__box">
+                                  <svg class="icon icon--check"><use xlink:href="sprites/sprite.svg#check"></use></svg>
+                                </span>
+                                <span class="checkbox__text">Dairy Free</span>
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group filter__last-group">
+                          <label class="form-group__label">Price</label>
+                          <div class="slider" data-start="1" data-end="500000" data-min="0" data-max="1000000" data-prefix="$">
+                            <div class="slider__labels">
+                              <div class="slider__label slider__label--min"></div>
+                              <div class="slider__label slider__label--max"></div>
+                            </div>
+                            <div class="slider__fields">
+                              <input class="slider__field slider__field--lower" type="text" />
+                              <input class="slider__field slider__field--higher" type="text" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="filter__dropdown-bottom">
+                      <button class="button button--dark">Show results (12)</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="vendor__products row">
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__badge">deal</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-1.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="label label--type-indica">indica</div>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="button">add to cart</div>
+                      <div class="button button--disable">request sent</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__out-of-stock">Out of stock</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-2.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="button">add to cart</div>
+                      <div class="button button--outline">request sample</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__badge">deal</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-3.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="label label--type-sativa">sativa</div>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="product-card__message">
+                        <button class="product-card__message-close">
+                          <svg class="icon icon--close-circle"><use xlink:href="sprites/sprite.svg#close-circle"></use></svg>
+                        </button>
+                        <div class="product-card__message-text">Your request has been sent, a representative will be in touch soon</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__badge">deal</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-1.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="label label--type-hybrid">hybrid</div>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="button">add to cart</div>
+                      <div class="button button--outline">request sample</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__out-of-stock">Out of stock</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-2.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="label label--type-indica">indica</div>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="button">add to cart</div>
+                      <div class="button button--outline">request sample</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vendor__product-card col-xl-4 col-lg-6 col-md-12">
+                  <div class="product-card">
+                    <div class="product-card__out-of-stock">Out of stock</div>
+                    <div class="product-card__img">
+                      <img src="images/products/product-thumb-3.jpg" />
+                    </div>
+                    <a class="product-card__title" href="product.html">Engerize .5g Cartridge</a>
+                    <ul class="product-card__meta">
+                      <li>Quantity Per Case: 1</li>
+                      <li>Price per unit: $250.00</li>
+                    </ul>
+                    <div class="label label--type-indica">indica</div>
+                    <div class="product-card__price-block">
+                      <div class="product-card__price-wrap">
+                        <div class="product-card__price-label">Price:</div>
+                        <div class="product-card__price">$20.00</div>
+                      </div>
+                      <div class="product-card__counter-wrap">
+                        <div class="product-card__counter-label">Qty:</div>
+                        <div class="counter">
+                          <input class="counter__field" type="text" value="1" />
+                          <div class="counter__buttons">
+                            <button class="counter__button counter__button--plus">
+                              <svg class="icon icon--plus"><use xlink:href="sprites/sprite.svg#plus"></use></svg>
+                            </button>
+                            <button class="counter__button counter__button--minus">
+                              <svg class="icon icon--minus"><use xlink:href="sprites/sprite.svg#minus"></use></svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-card__footer">
+                      <div class="button">add to cart</div>
+                      <div class="button button--outline">request sample</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="pagination vendor__pagination">
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">
+                    <svg class="icon icon--angle-left"><use xlink:href="sprites/sprite.svg#angle-left"></use></svg>
+                  </a>
+                </li>
+                <li class="pagination__item pagination__item--current">
+                  <a class="pagination__link" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">4</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">
+                    <svg class="icon icon--angle-right"><use xlink:href="sprites/sprite.svg#angle-right"></use></svg>
+                  </a>
+                </li>
+              </ul>
+              <div class="vendor__bottom vendor__bottom--sm">
+                <button class="button button--dark">more products...</button>
+              </div>
+            </div>
+            <div class="about tab-content" id="about">
+              <h2 class="about__heading">About</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget efficitur mi. Fusce in metus et lacus maximus finibus ut sagittis diam. Nulla quis metus sapien. Nam aliquet faucibus felis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget efficitur mi. Fusce in metus et lacus maximus finibus ut sagittis diam. Nulla quis metus sapien. Nam aliquet faucibus felis.</p>
+              <a href="#">Read more...</a>
+              <div class="about__licenses">
+                <div class="license">
+                  <div class="license__number">
+                    <span class="license__icon">
+                      <svg class="icon icon--21-plus"><use xlink:href="sprites/sprite.svg#21-plus"></use></svg>
+                    </span>M11-18-0000187-TEMP</div>
+                  <a class="license__download" href="#">
+                    <span class="license__icon">
+                      <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                    </span>Download Licenses</a>
+                </div>
+                <div class="license">
+                  <div class="license__number">
+                    <span class="license__icon">
+                      <svg class="icon icon--plus-circle"><use xlink:href="sprites/sprite.svg#plus-circle"></use></svg>
+                    </span>M11-18-0000187-TEMP</div>
+                  <a class="license__download" href="#">
+                    <span class="license__icon">
+                      <svg class="icon icon--arrow-down"><use xlink:href="sprites/sprite.svg#arrow-down"></use></svg>
+                    </span>Download Licenses</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="orders">
+              <h2 class="page__title page__title--sm">Orders</h2>
+              <div class="vendor__table-header vendor__table-header--sm">
+                <div class="vendor__table-header-left">
+                  <strong>27</strong> Orders</div>
+                <div class="vendor__table-header-right">
+                  <div class="select">
+                    <select class="select__select">
+                      <option>All Orders</option>
+                      <option>Completed</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="table-wrap">
+                <table class="table table--orders table-wrap__table">
+                  <tr class="table__row">
+                    <th class="table__col-title">Order ID
+                      <span class="table__icon-sort table__icon-sort--up">
+                        <svg class="icon icon--angle-up"><use xlink:href="sprites/sprite.svg#angle-up"></use></svg>
+                        <svg class="icon icon--angle-down"><use xlink:href="sprites/sprite.svg#angle-down"></use></svg>
+                      </span>
+                    </th>
+                    <th class="table__col-title">Date
+                      <span class="table__icon-sort table__icon-sort--down">
+                        <svg class="icon icon--angle-up"><use xlink:href="sprites/sprite.svg#angle-up"></use></svg>
+                        <svg class="icon icon--angle-down"><use xlink:href="sprites/sprite.svg#angle-down"></use></svg>
+                      </span>
+                    </th>
+                    <th class="table__col-title">Quantity
+                      <span class="table__icon-sort">
+                        <svg class="icon icon--angle-up"><use xlink:href="sprites/sprite.svg#angle-up"></use></svg>
+                        <svg class="icon icon--angle-down"><use xlink:href="sprites/sprite.svg#angle-down"></use></svg>
+                      </span>
+                    </th>
+                    <th class="table__col-title">Status
+                      <span class="table__icon-sort">
+                        <svg class="icon icon--angle-up"><use xlink:href="sprites/sprite.svg#angle-up"></use></svg>
+                        <svg class="icon icon--angle-down"><use xlink:href="sprites/sprite.svg#angle-down"></use></svg>
+                      </span>
+                    </th>
+                    <th class="table__col-title">Total
+                      <span class="table__icon-sort">
+                        <svg class="icon icon--angle-up"><use xlink:href="sprites/sprite.svg#angle-up"></use></svg>
+                        <svg class="icon icon--angle-down"><use xlink:href="sprites/sprite.svg#angle-down"></use></svg>
+                      </span>
+                    </th>
+                    <th class="table__col-title"></th>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">Completed</td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">
+                      <div class="table__cell-item">Deliver with Nabis</div>
+                      <div class="table__cell-item table__cell-item--no-wrap">
+                        <a class="text-small" href="#">Already received?</a>
+                      </div>
+                    </td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">Completed</td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">
+                      <div class="table__cell-item">Deliver with Nabis</div>
+                      <div class="table__cell-item table__cell-item--no-wrap">
+                        <a class="text-small" href="#">Already received?</a>
+                      </div>
+                    </td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">Completed</td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                  <tr class="table__row">
+                    <td class="table__cell">
+                      <a href="#">6191</a>
+                    </td>
+                    <td class="table__cell">7:50am
+                      <br> 07/10/2018</td>
+                    <td class="table__cell">1</td>
+                    <td class="table__cell">
+                      <div class="table__cell-item">Deliver with Nabis</div>
+                      <div class="table__cell-item table__cell-item--no-wrap">
+                        <a class="text-small" href="#">Already received?</a>
+                      </div>
+                    </td>
+                    <td class="table__cell">$624.96</td>
+                    <td class="table__cell">
+                      <a class="button button--outline" href="#">reorder</a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <ul class="pagination vendor__pagination">
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">
+                    <svg class="icon icon--angle-left"><use xlink:href="sprites/sprite.svg#angle-left"></use></svg>
+                  </a>
+                </li>
+                <li class="pagination__item pagination__item--current">
+                  <a class="pagination__link" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">2</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">3</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">4</a>
+                </li>
+                <li class="pagination__item">
+                  <a class="pagination__link" href="#">
+                    <svg class="icon icon--angle-right"><use xlink:href="sprites/sprite.svg#angle-right"></use></svg>
+                  </a>
+                </li>
+              </ul>
+              <div class="vendor__bottom vendor__bottom--sm">
+                <button class="button button--dark">load more...</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer page__footer">Powered by
+    <a class="footer__logo" href="#">
+      <img src="images/logo.svg" />
+    </a>
+  </footer>
+  <script src="../../../ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/svg4everybody/2.1.9/svg4everybody.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/jquery-typeahead/2.10.6/jquery.typeahead.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="../../../cdnjs.cloudflare.com/ajax/libs/noUiSlider/12.0.0/nouislider.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+
+<!-- Mirrored from vladchepel.github.io/cannaly/dist/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 05 Jan 2019 14:13:35 GMT -->
+</html>
